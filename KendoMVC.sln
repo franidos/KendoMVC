@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoMVC", "KendoMVC\KendoMVC.csproj", "{60F99C3F-4703-4DB1-AFF7-21976BD351A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83252065-C1F6-4D84-A857-B7B700000660} = {83252065-C1F6-4D84-A857-B7B700000660}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D3D7D7A6-F5E8-4F04-8ED7-BC42DA4F9819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceProduct", "ServiceProduct\ServiceProduct.csproj", "{83252065-C1F6-4D84-A857-B7B700000660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{8C4B3530-8A54-44D7-928E-CE6AD81385BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F99C3F-4703-4DB1-AFF7-21976BD351A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F99C3F-4703-4DB1-AFF7-21976BD351A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F99C3F-4703-4DB1-AFF7-21976BD351A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F99C3F-4703-4DB1-AFF7-21976BD351A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D7D7A6-F5E8-4F04-8ED7-BC42DA4F9819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D7D7A6-F5E8-4F04-8ED7-BC42DA4F9819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D7D7A6-F5E8-4F04-8ED7-BC42DA4F9819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D7D7A6-F5E8-4F04-8ED7-BC42DA4F9819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83252065-C1F6-4D84-A857-B7B700000660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83252065-C1F6-4D84-A857-B7B700000660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83252065-C1F6-4D84-A857-B7B700000660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83252065-C1F6-4D84-A857-B7B700000660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83252065-C1F6-4D84-A857-B7B700000660} = {8C4B3530-8A54-44D7-928E-CE6AD81385BD}
+	EndGlobalSection
+EndGlobal

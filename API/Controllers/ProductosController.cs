@@ -29,6 +29,8 @@ namespace API.Controllers
             Productos productos = db.productos.Find(id);
             if (productos == null)
             {
+
+
                 return NotFound();
             }
 
